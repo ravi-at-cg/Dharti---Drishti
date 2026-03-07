@@ -1,0 +1,12 @@
+[project]
+name = "dharti-drishti"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.42.63",
+    "dotenv>=0.9.9",
+    "groq>=1.0.0",
+    "sarvamai>=0.1.26",
+]

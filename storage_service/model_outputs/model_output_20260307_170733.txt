@@ -1,0 +1,192 @@
+{
+  "summary": "Alluvial soil with gentle SE slope, plenty of rain in monsoon and a nearby river makes it ideal for water‑loving rice and a warm‑season legume like soybean. Both give good returns and keep the soil healthy.",
+  "general_land_preparation": {
+    "before_any_crop": [
+      {
+        "product": "Agricultural Lime (Calcitic)",
+        "amount": "1.5 t/ha",
+        "why": "Raises pH if soil is acidic, improves nutrient availability"
+      },
+      {
+        "product": "Gypsum (Calcium Sulfate)",
+        "amount": "0.8 t/ha",
+        "why": "Improves soil structure on slightly sloping land and adds calcium"
+      },
+      {
+        "product": "Well‑rotted Compost",
+        "amount": "5 t/ha",
+        "why": "Adds organic matter, boosts water holding capacity"
+      }
+    ]
+  },
+  "crop_recommendations": [
+    {
+      "crop_name": "Rice (paddy)",
+      "why_good": "Alluvial soils retain water well, monsoon rains supply most water, and the river provides easy irrigation for the dry spell.",
+      "expected_harvest": "5‑6 t/ha",
+      "planting_time": "June‑early July (start of monsoon)",
+      "harvest_time": "Late October‑early November",
+      "total_growing_days": "120",
+      "what_to_add": {
+        "before_planting": [
+          {
+            "product": "Urea (46-0-0)",
+            "amount": "80 kg/ha",
+            "why": "Provides nitrogen for early vegetative growth"
+          },
+          {
+            "product": "DAP (18-46-0)",
+            "amount": "120 kg/ha",
+            "why": "Supplies phosphorus and extra nitrogen at transplant"
+          },
+          {
+            "product": "Zinc Sulphate (ZnSO4)",
+            "amount": "5 kg/ha",
+            "why": "Corrects possible zinc deficiency in alluvial soils"
+          }
+        ],
+        "during_growing": [
+          {
+            "product": "Urea",
+            "amount": "60 kg/ha",
+            "when": "30 days after transplant (tillering stage)",
+            "why": "Boosts leaf area and tiller number"
+          },
+          {
+            "product": "Potassium Chloride (Muriate of Potash)",
+            "amount": "50 kg/ha",
+            "when": "At panicle initiation (around 60 days after transplant)",
+            "why": "Improves grain filling and yield"
+          }
+        ]
+      },
+      "watering_guide": {
+        "method": "Flood irrigation (field leveled, water depth 5‑7 cm)",
+        "schedule": "Maintain standing water for first 30 days, then allow 2‑3 dry days before re‑flooding until grain filling",
+        "critical_stages": [
+          "Tillering (30‑45 DAS)",
+          "Panicle initiation (60‑70 DAS)",
+          "Grain filling (80‑110 DAS)"
+        ],
+        "total_water_needed": "Approx. 1200‑1300 mm per season (mostly supplied by monsoon and river irrigation)"
+      },
+      "month_by_month_plan": {
+        "month_1": ["Land leveling, apply lime, gypsum, and compost; plow and harrow"],
+        "month_2": ["Prepare seedbed, soak pre‑grown rice seedlings"],
+        "month_3": ["Transplant seedlings into leveled fields as monsoon begins"],
+        "month_4": ["Apply Urea 30 DAP as per schedule; monitor water depth"],
+        "month_5": ["Apply second Urea dose at tillering; manage weeds manually"],
+        "month_6": ["Apply Potash at panicle initiation; check for pests (stem borer)"],
+        "month_7": ["Maintain water level, scout for disease (blast)"],
+        "month_8": ["Reduce water depth, begin drying period, continue pest checks"],
+        "month_9": ["Prepare harvest equipment, plan labor"],
+        "month_10": ["Harvest rice, dry grain to 14% moisture, store in breathable sacks"],
+        "month_11": ["Post‑harvest field cleanup, incorporate rice straw into soil"],
+        "month_12": ["Plan next season (soybean), repair irrigation channels if needed"]
+      },
+      "common_problems": {
+        "pests": ["Stem borer – handpick or apply neem seed oil spray; Brown plant hopper – use early sowing and light trap"],
+        "diseases": ["Blast – apply copper‑based fungicide at early heading; Sheath blight – keep fields well‑drained after flowering"],
+        "weather_issues": ["Excess rain after flowering can cause lodging – reduce water depth; Drought before panicle – supplemental river water irrigation"]
+      },
+      "harvest_tips": [
+        "Grains turn golden and kernels become hard; shake a few panicles – if they stay on, not ready",
+        "Use a motorized reaper or sickle; cut at 5‑7 cm above water level to avoid grain loss",
+        "Dry grain in the sun for 2‑3 days, then store in ventilated bags or metal silos"
+      ]
+    },
+    {
+      "crop_name": "Soybean (grain)",
+      "why_good": "Warm temperature, good drainage on gentle slope, and nitrogen‑fixing ability improve soil for the next rice crop.",
+      "expected_harvest": "2.5‑3 t/ha",
+      "planting_time": "Mid‑October (post‑rice harvest, before first rains)",
+      "harvest_time": "Late March‑early April",
+      "total_growing_days": "150",
+      "what_to_add": {
+        "before_planting": [
+          {
+            "product": "Compost (well‑decomposed)",
+            "amount": "4 t/ha",
+            "why": "Adds organic matter and starter nitrogen"
+          },
+          {
+            "product": "Triple Super Phosphate (TSP 46-0-0)",
+            "amount": "80 kg/ha",
+            "why": "Supplies phosphorus for root development"
+          },
+          {
+            "product": "Zinc Sulphate",
+            "amount": "4 kg/ha",
+            "why": "Prevents zinc deficiency which limits yield"
+          }
+        ],
+        "during_growing": [
+          {
+            "product": "Urea",
+            "amount": "30 kg/ha",
+            "when": "At V4 stage (4th leaf, about 30 days after sowing)",
+            "why": "Boosts pod set without excessive vegetative growth"
+          },
+          {
+            "product": "Muriate of Potash",
+            "amount": "40 kg/ha",
+            "when": "At flowering stage (R1)",
+            "why": "Improves seed size and weight"
+          }
+        ]
+      },
+      "watering_guide": {
+        "method": "Drip irrigation (0.5‑1 L/hr per emitter) or light sprinkler if drip not available",
+        "schedule": "Water every 7‑10 days; increase to every 5 days during flowering",
+        "critical_stages": [
+          "Flowering (R1)",
+          "Pod filling (R3‑R5)"
+        ],
+        "total_water_needed": "Approx. 500‑600 mm for the whole season"
+      },
+      "month_by_month_plan": {
+        "month_1": ["Clear rice residues, plow field, add compost and gypsum"],
+        "month_2": ["Apply pre‑plant fertilizer (TSP, zinc) and level seedbed"],
+        "month_3": ["Sow soybean seeds at 30‑35 cm row spacing, 4‑5 cm depth"],
+        "month_4": ["Install drip lines, start light irrigation; monitor germination"],
+        "month_5": ["Apply first Urea dose at V4 stage; control weeds by hand or shallow hoeing"],
+        "month_6": ["Check for aphids; spray neem oil if needed"],
+        "month_7": ["Apply Potash at flowering; increase irrigation frequency"],
+        "month_8": ["Monitor for pod rot; ensure good air flow, reduce water if humidity high"],
+        "month_9": ["Begin gradual water reduction to mature pods"],
+        "month_10": ["Prepare harvest tools, dry field if rain forecasted"],
+        "month_11": ["Harvest when leaves yellow and pods are brown; thresh and dry beans"],
+        "month_12": ["Store beans in ventilated bags; plan next rice season, incorporate soybean residues"]
+      },
+      "common_problems": {
+        "pests": ["Aphids – spray neem oil or release lady beetles; Pod borer – hand pick early"],
+        "diseases": ["Pod rot – avoid waterlogged conditions, use seed treatment with carbendazim if needed"],
+        "weather_issues": ["Heavy rain during flowering can cause pod drop – improve field drainage; Drought – increase drip flow rates"]
+      },
+      "harvest_tips": [
+        "Pods turn brown and easily shatter when rubbed; leaves are fully yellow",
+        "Use a combine harvester with low grain loss setting or manually pull pods and thresh on a clean surface",
+        "Dry beans to <13% moisture before storing in airtight containers or jute bags in a cool place"
+      ]
+    }
+  ],
+  "general_tips": {
+    "soil_protection": [
+      "Create shallow contour ridges along the 6‑7% slope to slow runoff",
+      "Keep a permanent grass or cover crop strip on field edges near the river"
+    ],
+    "water_saving": [
+      "Capture monsoon runoff in small earthen ponds and use it for drip irrigation",
+      "Mulch soybean rows with straw to reduce evaporation"
+    ],
+    "cost_saving": [
+      "Use farm‑made compost from rice straw and animal manure instead of purchased organic fertilizer",
+      "Share drip‑line installation costs with neighboring farms"
+    ]
+  },
+  "rotation_plan": {
+    "year_1": "Rice – uses abundant monsoon water and builds organic matter for the next legume",
+    "year_2": "Soybean – fixes nitrogen, improves soil structure, prepares field for rice again",
+    "year_3": "Rice again – higher yields thanks to residual nitrogen from soybean"
+  }
+}
