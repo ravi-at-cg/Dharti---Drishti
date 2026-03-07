@@ -7,6 +7,9 @@ requires-python = ">=3.12"
 dependencies = [
     "boto3>=1.42.63",
     "dotenv>=0.9.9",
+    "google-genai>=1.66.0",
     "groq>=1.0.0",
+    "inference-sdk>=1.1.0",
+    "roboflow>=1.2.16",
     "sarvamai>=0.1.26",
 ]
