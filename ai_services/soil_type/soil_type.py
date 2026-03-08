@@ -18,10 +18,17 @@ def get_max_confidence_category(result):
     
     return max_category, predictions[max_category]["confidence"]
 
-image_url = "/Users/ravichandera/april_onwards/Dharti---Drishti/storage_service/soil_images/image.png"
-result = CLIENT.infer(image_url, model_id="soil-type-ladmq/6")
-print(result)
-category, confidence = get_max_confidence_category(result)
+def get_soil_category(image_url:str):
+    result = CLIENT.infer(image_url, model_id="soil-type-ladmq/6")
+    print("result of soil classification", result)
+    category, confidence = get_max_confidence_category(result)
 
-print("category",category)    
-print("confidence", confidence)
+    print("Soil category",category)    
+    print("Soil category confidence", confidence)
+    return category, confidence
+
+
+if __name__ == "__main__":
+
+    image_url = "/Users/ravichandera/april_onwards/Dharti---Drishti/storage_service/soil_images/image.png"
+    category, confidence = get_soil_category(image_url)

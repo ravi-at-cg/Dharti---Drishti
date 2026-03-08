@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dharti Drishti - Soil Analysis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌱 Dharti Drishti</h1>
+        <p class="subtitle">Soil Analysis & Crop Recommendation</p>
+        
+        <form id="analysisForm">
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" id="demoMode"> Use Demo Images (for testing)
+                </label>
+            </div>
+            
+            <div class="form-group" id="demoImageSelector" style="display: none;">
+                <label for="demoImageSelect">Select Demo Image:</label>
+                <select id="demoImageSelect">
+                    <option value="image_1.png">Demo Image 1</option>
+                    <option value="image_2.png">Demo Image 2</option>
+                </select>
+                <div id="demoImagePreview"></div>
+            </div>
+            
+            <div class="form-group" id="uploadImageSection">
+                <label for="imageInput">Upload Soil Image:</label>
+                <input type="file" id="imageInput" accept="image/*">
+                <div id="imagePreview"></div>
+            </div>
+            
+            <div class="form-group">
+                <label for="topCrops">Number of Top Crops:</label>
+                <input type="number" id="topCrops" value="2" min="1" max="10" required>
+            </div>
+            
+            <div class="location-info">
+                <p>📍 Location: <span id="locationText">Detecting...</span></p>
+                <input type="hidden" id="latitude">
+                <input type="hidden" id="longitude">
+            </div>
+            
+            <button type="submit" id="submitBtn">Analyze Soil</button>
+        </form>
+        
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Analyzing soil sample...</p>
+        </div>
+        
+        <div id="success" class="success-message hidden">
+            <div class="success-icon">✓</div>
+            <h2>Analysis Complete!</h2>
+            <p>Your soil analysis has been completed successfully.</p>
+            <button id="viewResultsBtn" class="view-results-btn">View Detailed Results</button>
+        </div>
+        
+        <div id="error" class="error hidden"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

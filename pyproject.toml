@@ -12,4 +12,6 @@ dependencies = [
     "inference-sdk>=1.1.0",
     "roboflow>=1.2.16",
     "sarvamai>=0.1.26",
+    "flask>=3.0.0",
+    "flask-cors>=4.0.0",
 ]
