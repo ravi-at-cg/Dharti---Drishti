@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Render</title>
+    <link rel="stylesheet" href="frontend/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Test Rendering</h1>
+        <div id="results" class="results">
+            <h2>Analysis Results</h2>
+            <div id="resultJson"></div>
+        </div>
+    </div>
+    <script src="frontend/script.js"></script>
+    <script>
+        // Test with your sample data
+        const testData = {"summary": "Black, fertile soil with good moisture and warm climate suits water‑loving crops like rice and high‑protein crops like soybean. Both give good returns and fit the monsoon pattern.","general_land_preparation": {"before_any_crop": [{"product": "Agricultural Lime","amount": "2 tonnes per hectare","why": "Raises pH of slightly acidic black soil and improves root growth"},{"product": "Gypsum (Calcium Sulphate)","amount": "1.5 tonnes per hectare","why": "Improves soil structure and provides calcium and sulphur"}]},"crop_recommendations": [{"crop_name": "Rice (Kharif)","why_good": "Monsoon‑dominant rain gives enough water; black soil holds moisture and nutrients well for rice.","expected_harvest": "5‑6 tons per hectare","planting_time": "Early June (just before monsoon peaks)","harvest_time": "Late October to early November","total_growing_days": "130","what_to_add": {"before_planting": [{"product": "Urea 46-0-0","amount": "120 kg per hectare","why": "Provides nitrogen for early tillering"}],"during_growing": [{"product": "Urea","amount": "80 kg per hectare","when": "30 days after transplanting (tillering stage)","why": "Boosts leaf growth"}]},"watering_guide": {"method": "Flood irrigation (maintain 5‑7 cm water depth)","schedule": "Maintain standing water for first 30 days, then intermittent flooding every 4‑5 days","critical_stages": ["Tillering (20‑30 days)", "Flowering (80‑90 days)"],"total_water_needed": "Approx. 1200 mm for the season"},"month_by_month_plan": {"month_1": ["Land levelling and ploughing", "Apply lime and gypsum"],"month_2": ["Apply basal DAP and Urea", "Level field and prepare seedbed"]},"common_problems": {"pests": ["Stem borer – use neem seed oil spray"],"diseases": ["Blast – spray copper fungicide"],"weather_issues": ["Excess rain – improve field drainage"]},"harvest_tips": ["Crop is ready when grains turn golden and the stalk bends easily.","Cut at ground level, let cut stalks dry 2‑3 days before threshing."]}],"general_tips": {"soil_protection": ["Maintain 10‑15 cm permanent grass or mulch on slopes to stop erosion"],"water_saving": ["Collect monsoon runoff in a small earth tank for supplemental drip irrigation"],"cost_saving": ["Use locally produced compost from farm residues instead of expensive organic fertilizers"]},"rotation_plan": {"year_1": "Rice – builds soil organic matter and uses abundant monsoon water","year_2": "Soybean – adds nitrogen, breaks pest cycles, and uses less water"}};
+        
+        showResults(testData);
+    </script>
+</body>
+</html>
