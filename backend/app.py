@@ -80,5 +80,21 @@ def serve_demo_image(filename):
     images_dir = os.path.join(base_dir, 'storage_service', 'soil_images')
     return send_from_directory(images_dir, filename)
 
+@app.route('/')
+def serve_index():
+    """Serve the main frontend page"""
+    from flask import send_from_directory
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    frontend_dir = os.path.join(base_dir, 'frontend')
+    return send_from_directory(frontend_dir, 'index.html')
+
+@app.route('/<path:filename>')
+def serve_frontend(filename):
+    """Serve frontend static files"""
+    from flask import send_from_directory
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    frontend_dir = os.path.join(base_dir, 'frontend')
+    return send_from_directory(frontend_dir, filename)
+
 if __name__ == '__main__':
     app.run(debug=True, port=5000)

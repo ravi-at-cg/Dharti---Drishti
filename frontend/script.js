@@ -1,4 +1,7 @@
-const API_URL = 'http://localhost:5000/api';
+// Automatically detect API URL based on environment
+const API_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+    ? 'http://localhost:5000/api'
+    : `${window.location.origin}/api`;
 const DEMO_LOCATION = { lat: 23.1456, lon: 72.5325 };
 
 window.addEventListener('DOMContentLoaded', () => {
