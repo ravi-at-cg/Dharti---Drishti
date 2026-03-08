@@ -1,0 +1,175 @@
+{
+  "summary": "Black fertile soil with good moisture from monsoon supports high‑yield summer maize and nitrogen‑fixing soybean. Both crops fit the warm climate and can be rotated for soil health.",
+  "general_land_preparation": {
+    "before_any_crop": [
+      {
+        "product": "Lime (Calcitic)",
+        "amount": "2 t/ha",
+        "why": "Raises pH if soil is acidic, improves nutrient availability"
+      },
+      {
+        "product": "Gypsum (Calcium Sulfate)",
+        "amount": "1 t/ha",
+        "why": "Improves soil structure and provides calcium and sulfur"
+      },
+      {
+        "product": "Well‑decomposed compost",
+        "amount": "5 t/ha",
+        "why": "Adds organic matter, improves water holding capacity"
+      }
+    ]
+  },
+  "crop_recommendations": [
+    {
+      "crop_name": "Maize (Corn)",
+      "why_good": "Thrives in warm temps, uses monsoon rains, high market demand, good on black soils",
+      "expected_harvest": "8-10 tons/ha",
+      "planting_time": "June (just before monsoon onset)",
+      "harvest_time": "September‑October",
+      "total_growing_days": "110",
+      "what_to_add": {
+        "before_planting": [
+          {
+            "product": "DAP (18-46-0)",
+            "amount": "150 kg/ha",
+            "why": "Provides phosphorus and nitrogen for root development"
+          },
+          {
+            "product": "Urea (46-0-0)",
+            "amount": "60 kg/ha",
+            "why": "Initial nitrogen boost"
+          }
+        ],
+        "during_growing": [
+          {
+            "product": "Urea",
+            "amount": "80 kg/ha",
+            "when": "30 days after planting (V6 stage)",
+            "why": "Supports vegetative growth"
+          },
+          {
+            "product": "Potassium Sulfate (0-0-50)",
+            "amount": "50 kg/ha",
+            "when": "At tasseling stage (about 70 days after planting)",
+            "why": "Improves grain filling and stress tolerance"
+          }
+        ]
+      },
+      "watering_guide": {
+        "method": "Drip irrigation (if available) or low‑volume sprinkler",
+        "schedule": "Every 5‑6 days during dry spell, weekly during rainy months",
+        "critical_stages": ["Silking", "Grain filling"],
+        "total_water_needed": "≈ 550 mm for the whole season"
+      },
+      "month_by_month_plan": {
+        "month_1": ["Clear field, level soil, apply lime, gypsum and compost", "Plow to 20 cm depth"],
+        "month_2": ["Mark rows, apply pre‑plant DAP and Urea", "Prepare drip lines if used"],
+        "month_3": ["Plant maize seeds (5‑6 cm depth) at 75 cm x 25 cm spacing", "Irrigate lightly after sowing if rain delayed"],
+        "month_4": ["Monitor emergence, control weeds manually or with shallow cultivation", "Apply first side‑dressing Urea at V6"],
+        "month_5": ["Check for pests (maize borer) and apply neem oil if needed", "Maintain moisture, especially if rains are sparse"],
+        "month_6": ["Apply potassium sulfate at tasseling", "Continue weed control"],
+        "month_7": ["Monitor for ear rot, ensure adequate water during grain filling", "Begin scouting for harvest readiness"],
+        "month_8": ["Start drying field if early rains", "Prepare storage area"],
+        "month_9": ["Harvest mature ears, shell and dry kernels", "Remove stalks to prevent pest carry‑over"],
+        "month_10": ["Store grain in ventilated bags, apply insecticide if needed", "Plow residue back into soil"],
+        "month_11": ["Conduct soil test, plan next crop", "Apply any remaining compost"],
+        "month_12": ["Maintain equipment, rest field if possible"]
+      },
+      "common_problems": {
+        "pests": ["Maize earworm – use neem seed cake or Bacillus thuringiensis spray", "Aphids – spray water with a few drops of soap"],
+        "diseases": ["Gray leaf spot – practice crop rotation and remove infected leaves", "Root rot – ensure good drainage, avoid waterlogging"],
+        "weather_issues": ["If rains are delayed, use drip to supply 25‑30 mm/week", "If heavy rain in July, create shallow furrows to avoid waterlogging"]
+      },
+      "harvest_tips": [
+        "Harvest when kernels are firm and moisture ~14‑16%",
+        "Cut stalks early in the morning to reduce grain loss",
+        "Dry kernels to <13% moisture before storage to prevent mold"
+      ]
+    },
+    {
+      "crop_name": "Soybean",
+      "why_good": "Fits monsoon pattern, adds nitrogen to soil, good market price, grows well on black soils",
+      "expected_harvest": "2.5-3 tons/ha",
+      "planting_time": "June‑early July (with early monsoon)",
+      "harvest_time": "October‑early November",
+      "total_growing_days": "120",
+      "what_to_add": {
+        "before_planting": [
+          {
+            "product": "Phosphorous Rock (Rock Phosphate)",
+            "amount": "100 kg/ha",
+            "why": "Supplies phosphorus for root nodulation"
+          },
+          {
+            "product": "Compost",
+            "amount": "3 t/ha",
+            "why": "Improves soil organic matter and moisture retention"
+          }
+        ],
+        "during_growing": [
+          {
+            "product": "Urea",
+            "amount": "50 kg/ha",
+            "when": "30 days after planting (vegetative stage)",
+            "why": "Supports leaf development before nodulation fully kicks in"
+          },
+          {
+            "product": "Potassium Chloride (0-0-60)",
+            "amount": "40 kg/ha",
+            "when": "At flowering stage (≈70 days after planting)",
+            "why": "Boosts pod set and seed weight"
+          }
+        ]
+      },
+      "watering_guide": {
+        "method": "Drip or low‑volume sprinkler; rainfed where possible",
+        "schedule": "Every 6‑7 days during dry spells, rely on monsoon rains otherwise",
+        "critical_stages": ["Flowering", "Pod development"],
+        "total_water_needed": "≈ 480 mm for the season"
+      },
+      "month_by_month_plan": {
+        "month_1": ["Clear residues from previous crop, light tillage", "Apply rock phosphate and compost"],
+        "month_2": ["Mark rows (45 cm spacing), ensure good seed‑to‑soil contact"],
+        "month_3": ["Sow soybean seeds (2‑3 cm depth) at 30 kg/ha", "Irrigate lightly if no rain"],
+        "month_4": ["Weed control – hand weeding or shallow hoeing", "Apply first side‑dressing Urea at vegetative stage"],
+        "month_5": ["Monitor for aphids, use neem oil spray if needed", "Maintain soil moisture"],
+        "month_6": ["Apply potassium chloride at flowering", "Inspect for pod borer, use pheromone traps"],
+        "month_7": ["Ensure adequate water during pod fill, supplement if dry", "Continue weed management"],
+        "month_8": ["Begin checking seed moisture; ready to harvest when pods turn brown"],
+        "month_9": ["Harvest by pulling plants or using combine, dry beans in shade", "Remove remaining stalks"],
+        "month_10": ["Store beans in breathable bags, keep cool and dry", "Conduct soil test for next season"],
+        "month_11": ["Apply any leftover compost, plan rotation", "Maintain farm tools"],
+        "month_12": ["Rest field if possible, monitor for pests over winter"]
+      },
+      "common_problems": {
+        "pests": ["Soybean aphid – spray water with a few drops of soap or use neem oil", "Pod borer – set up light traps at night"],
+        "diseases": ["Soybean rust – plant resistant varieties, remove infected leaves", "Root nodule failure – ensure adequate phosphorus and avoid waterlogging"],
+        "weather_issues": ["If early rains are weak, apply supplemental drip water 20‑25 mm/week", "If heavy July rains cause flooding, create shallow drainage channels"]
+      },
+      "harvest_tips": [
+        "Harvest when 95% of pods are dry and beans rattle inside",
+        "Dry beans to ≤13% moisture before storage",
+        "Store in ventilated bags, rotate stock every 6 months"
+      ]
+    }
+  ],
+  "general_tips": {
+    "soil_protection": [
+      "Plant contour strips or grass strips on field edges to slow runoff",
+      "Avoid deep tillage on rainy days to prevent erosion"
+    ],
+    "water_saving": [
+      "Use mulch (straw or dry leaves) to reduce evaporation",
+      "Collect rainwater in small ponds or tanks for supplemental irrigation"
+    ],
+    "cost_saving": [
+      "Use locally produced compost and farmyard manure instead of expensive chemical organics",
+      "Practice manual weeding early to reduce herbicide use"
+    ]
+  },
+  "rotation_plan": {
+    "year_1": "Maize – high biomass, builds soil organic matter",
+    "year_2": "Soybean – fixes nitrogen, improves soil fertility after maize",
+    "year_3": "Wheat (or sorghum) – uses residual nitrogen, diversifies income"
+  }
+}

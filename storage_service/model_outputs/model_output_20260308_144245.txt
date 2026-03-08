@@ -1,0 +1,215 @@
+{
+  "summary": "Flat black soil with high organic carbon and warm monsoon climate is ideal for a water‑loving Kharif crop like rice and a cooler Rabi crop like wheat.",
+  "general_land_preparation": {
+    "before_any_crop": [
+      {
+        "product": "Agricultural Lime (CaCO3)",
+        "amount": "1000 kg per hectare",
+        "why": "Raises pH of slightly acidic black soil for better nutrient availability"
+      },
+      {
+        "product": "Gypsum (Calcium Sulfate)",
+        "amount": "500 kg per hectare",
+        "why": "Improves soil structure and adds calcium without altering pH"
+      },
+      {
+        "product": "Well‑rotted Compost",
+        "amount": "3 tons per hectare",
+        "why": "Boosts soil organic matter and moisture retention"
+      }
+    ]
+  },
+  "crop_recommendations": [
+    {
+      "crop_name": "Rice (Paddy)",
+      "why_good": "Monsoon‑dominant rainfall supplies ample water; black soil retains moisture and nutrients well for high rice yields.",
+      "expected_harvest": "5–6 tons per hectare",
+      "planting_time": "April – May (Kharif season)",
+      "harvest_time": "October – November",
+      "total_growing_days": "180",
+      "what_to_add": {
+        "before_planting": [
+          {
+            "product": "DAP (Di‑Ammonium Phosphate) 18-46-0",
+            "amount": "100 kg per hectare",
+            "why": "Supplies phosphorus and nitrogen for root development"
+          },
+          {
+            "product": "Urea 46% N",
+            "amount": "120 kg per hectare (split)",
+            "why": "Provides nitrogen; split to reduce loss"
+          },
+          {
+            "product": "Zinc Sulfate",
+            "amount": "5 kg per hectare",
+            "why": "Corrects zinc deficiency common in black soils"
+          }
+        ],
+        "during_growing": [
+          {
+            "product": "Urea",
+            "amount": "60 kg per hectare",
+            "when": "30 days after transplanting (tillering stage)",
+            "why": "Boosts vegetative growth"
+          },
+          {
+            "product": "Urea",
+            "amount": "60 kg per hectare",
+            "when": "60 days after transplanting (panicle initiation)",
+            "why": "Supports grain filling"
+          },
+          {
+            "product": "Potassium Chloride (MOP) 60% K2O",
+            "amount": "40 kg per hectare",
+            "when": "At panicle initiation",
+            "why": "Improves grain weight and stress tolerance"
+          }
+        ]
+      },
+      "watering_guide": {
+        "method": "Flooded field (paddy) with intermittent drainage",
+        "schedule": "Maintain 5–7 cm water depth continuously for first 45 days, then allow 2–3 days dry interval before re‑flooding until maturity",
+        "critical_stages": [
+          "Tillering (high water demand)",
+          "Panicle initiation (ensure adequate moisture)"
+        ],
+        "total_water_needed": "Approx. 1200 mm for full season (mostly supplied by monsoon)"
+      },
+      "month_by_month_plan": {
+        "month_1": ["Plow and level field, incorporate lime, gypsum and compost."],
+        "month_2": ["Create bunds, flood field to a shallow level, sow pre‑germinated seed or transplant seedlings."],
+        "month_3": ["Maintain continuous shallow flooding, apply first split of urea (30 DAS)."],
+        "month_4": ["Continue flooding, monitor weeds, apply second split of urea (60 DAS) and potassium."],
+        "month_5": ["Begin gradual drainage, start pest scouting for rice leaf beetle, apply zinc if needed."],
+        "month_6": ["Full drainage for 2–3 days, then re‑flood; monitor for blast disease, apply appropriate fungicide if symptoms appear."],
+        "month_7": ["Reduce water depth, continue pest/disease monitoring, begin grain filling stage."],
+        "month_8": ["Prepare for harvest: stop irrigation 7‑10 days before expected maturity."],
+        "month_9": ["Harvest rice by manual or mechanical means, dry grain to 14% moisture."],
+        "month_10": ["Store grain in ventilated bins, clean equipment, apply post‑harvest lime to field."],
+        "month_11": ["Plow residue into soil, plant cover crop (e.g., mung bean) for soil protection."],
+        "month_12": ["Maintain cover crop, prepare for next season's wheat if rotating."]
+      },
+      "common_problems": {
+        "pests": [
+          "Rice leaf beetle – hand pick or apply neem oil spray.",
+          "Stem borer – use pheromone traps and timely application of carbaryl at early tillering."
+        ],
+        "diseases": [
+          "Blast – spray copper‑based fungicide at tillering if humid conditions persist.",
+          "Sheath rot – ensure proper field drainage after monsoon."
+        ],
+        "weather_issues": [
+          "Excess rain in July – improve field drainage and create temporary channels.",
+          "Dry spell before monsoon – supplement with drip irrigation to keep 5 cm water depth."
+        ]
+      },
+      "harvest_tips": [
+        "Harvest when 80% of grains turn golden and moisture drops below 20%.",
+        "Cut stalks early in the morning to reduce grain loss.",
+        "Dry harvested grain under shade for 5‑7 days before storing in airtight bags."
+      ]
+    },
+    {
+      "crop_name": "Wheat (Rabi)",
+      "why_good": "Cooler winter months (Nov‑Feb) match wheat’s temperature needs; black soil’s fertility supports high protein wheat.",
+      "expected_harvest": "3.5–4 tons per hectare",
+      "planting_time": "Late October – Early November",
+      "harvest_time": "Late March – Early April",
+      "total_growing_days": "120",
+      "what_to_add": {
+        "before_planting": [
+          {
+            "product": "DAP 18-46-0",
+            "amount": "80 kg per hectare",
+            "why": "Supplies phosphorus for strong root growth"
+          },
+          {
+            "product": "Urea 46% N",
+            "amount": "100 kg per hectare (split)",
+            "why": "Primary nitrogen source, split to avoid leaching"
+          },
+          {
+            "product": "Muriate of Potash (KCl) 60% K2O",
+            "amount": "40 kg per hectare",
+            "why": "Improves grain size and stress tolerance"
+          }
+        ],
+        "during_growing": [
+          {
+            "product": "Urea",
+            "amount": "50 kg per hectare",
+            "when": "30 days after sowing (tillering stage)",
+            "why": "Promotes tiller development"
+          },
+          {
+            "product": "Zinc Sulfate",
+            "amount": "5 kg per hectare",
+            "when": "At tillering",
+            "why": "Prevents zinc deficiency which reduces grain quality"
+          }
+        ]
+      },
+      "watering_guide": {
+        "method": "Drip irrigation or furrow irrigation",
+        "schedule": "Water every 7‑10 days; increase to every 5 days during grain filling if rainfall <30 mm per week.",
+        "critical_stages": [
+          "Tillering (moderate water)",
+          "Grain filling (adequate moisture)"
+        ],
+        "total_water_needed": "Approx. 450 mm for the whole season (mostly from residual monsoon moisture and supplemental irrigation)"
+      },
+      "month_by_month_plan": {
+        "month_1": ["Plow field after rice residue, incorporate leftover compost and lime."],
+        "month_2": ["Level field, create fine furrows, sow wheat seeds at 100‑120 kg/ha."],
+        "month_3": ["Apply basal DAP and half of urea at sowing, start light irrigation if soil dry."],
+        "month_4": ["At tillering (≈30 DAS), apply second split of urea and zinc sulfate, monitor weeds."],
+        "month_5": ["Perform weeding, continue irrigation every 7‑10 days, apply additional potassium if soil test low."],
+        "month_6": ["Monitor for wheat rust; spray copper fungicide if symptoms appear."],
+        "month_7": ["Reduce irrigation as grain matures, begin scouting for aphids and use neem spray if needed."],
+        "month_8": ["Stop irrigation 7‑10 days before expected harvest, dry stalks in field."],
+        "month_9": ["Harvest wheat by reaper or manual sickle, dry grain to 12% moisture."],
+        "month_10": ["Store grain in ventilated sacks, clean equipment, apply post‑harvest gypsum to field."],
+        "month_11": ["Plant a short‑duration green manure (e.g., sesbania) to protect soil during off‑season."],
+        "month_12": ["Maintain green manure, prepare for next Kharif crop (e.g., maize or rice)."]
+      },
+      "common_problems": {
+        "pests": [
+          "Aphids – spray neem oil or introduce lady beetles.",
+          "Wheat midge – early sowing and seed treatment with thiamethoxam."
+        ],
+        "diseases": [
+          "Leaf rust – apply copper fungicide at early tillering if humid.",
+          "Fusarium head blight – use certified seed and rotate crops."
+        ],
+        "weather_issues": [
+          "Late‑season drought – increase drip frequency during grain filling.",
+          "Unexpected heavy rain – ensure good field drainage to avoid waterlogging."
+        ]
+      },
+      "harvest_tips": [
+        "Harvest when grains are hard and straw turns golden.",
+        "Use a sickle or combine when moisture is 12‑14% for optimal grain quality.",
+        "Cool dry grain before storage to prevent mold."
+      ]
+    }
+  ],
+  "general_tips": {
+    "soil_protection": [
+      "Create contour ridges on any slight slope to slow runoff.",
+      "Leave a thin layer of crop residue after harvest to protect against erosion."
+    ],
+    "water_saving": [
+      "Collect monsoon runoff in small ponds or bunds for supplemental irrigation.",
+      "Use drip lines with pressure regulators to avoid over‑watering."
+    ],
+    "cost_saving": [
+      "Use locally produced compost instead of purchased organic fertilizer.",
+      "Practice seed saving from healthy plants for the next season."
+    ]
+  },
+  "rotation_plan": {
+    "year_1": "Rice – utilizes abundant monsoon water and builds soil organic matter.",
+    "year_2": "Wheat – benefits from residual moisture, improves soil structure and breaks pest cycles.",
+    "year_3": "Maize or Soybean – adds nitrogen (if soybean) and provides a short summer crop before next rice cycle."
+  }
+}

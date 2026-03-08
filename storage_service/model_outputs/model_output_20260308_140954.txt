@@ -1,0 +1,178 @@
+{
+  "summary": "With fertile black soil, ample monsoon rain and warm temperatures, maize and cotton will give good yields and cash returns on this flat land.",
+  "general_land_preparation": {
+    "before_any_crop": [
+      {
+        "product": "Agricultural Lime",
+        "amount": "2 tonnes per hectare",
+        "why": "Raises pH of slightly acidic black soil for better nutrient uptake"
+      },
+      {
+        "product": "Gypsum",
+        "amount": "1.5 tonnes per hectare",
+        "why": "Improves soil structure and helps with calcium supply"
+      },
+      {
+        "product": "Well‑rotted Compost",
+        "amount": "5 tonnes per hectare",
+        "why": "Adds organic matter and boosts soil microbial activity"
+      }
+    ]
+  },
+  "crop_recommendations": [
+    {
+      "crop_name": "Maize (Corn)",
+      "why_good": "Thrives in warm climates, uses the abundant monsoon moisture and black soil fertility for high grain yields.",
+      "expected_harvest": "6‑8 tons per hectare",
+      "planting_time": "Mid‑April to early May (start of monsoon)",
+      "harvest_time": "Mid‑September to early October",
+      "total_growing_days": "150",
+      "what_to_add": {
+        "before_planting": [
+          {
+            "product": "Urea (46-0-0)",
+            "amount": "100 kg per hectare",
+            "why": "Provides nitrogen for early vegetative growth"
+          },
+          {
+            "product": "DAP (18-46-0)",
+            "amount": "80 kg per hectare",
+            "why": "Supplies phosphorus and extra nitrogen at sowing"
+          }
+        ],
+        "during_growing": [
+          {
+            "product": "Urea",
+            "amount": "60 kg per hectare",
+            "when": "30 days after planting (tillering stage)",
+            "why": "Supports rapid leaf development"
+          },
+          {
+            "product": "Potassium Sulphate (0-0-50)",
+            "amount": "50 kg per hectare",
+            "when": "At tasseling stage (about 90 days after planting)",
+            "why": "Improves grain filling and drought tolerance"
+          }
+        ]
+      },
+      "watering_guide": {
+        "method": "Drip irrigation with low flow rate",
+        "schedule": "Every 4‑5 days during dry spells, weekly during rainy months",
+        "critical_stages": ["Silking", "Grain filling"],
+        "total_water_needed": "Approx. 500‑600 mm for the whole season"
+      },
+      "month_by_month_plan": {
+        "month_1": ["Land plowing and leveling", "Apply lime, gypsum and compost", "Create drip lines"],
+        "month_2": ["Sow maize seeds at 5‑6 cm depth, 75 cm row spacing", "Apply basal DAP and Urea"],
+        "month_3": ["Monitor seed emergence, keep soil moist", "Weed manually or with shallow hoeing"],
+        "month_4": ["First side‑dressing of Urea (30 days after sowing)", "Check drip system for clogs"],
+        "month_5": ["Apply potassium sulfate at tasseling", "Control leafhopper pests with neem spray"],
+        "month_6": ["Monitor for stem borer, use pheromone trap if needed", "Maintain irrigation schedule"],
+        "month_7": ["Begin scouting for ear rot, remove infected ears", "Continue weed control"],
+        "month_8": ["Prepare storage area, dry field for harvest", "Reduce irrigation as grains mature"],
+        "month_9": ["Harvest maize when kernels are glossy and moisture 15‑18%", "Dry kernels in shade for 2‑3 days"],
+        "month_10": ["Post‑harvest field cleanup, incorporate leftover stalks", "Apply organic manure for next crop"],
+        "month_11": ["Soil testing for nutrient status", "Plan next season's crop"],
+        "month_12": ["Equipment maintenance, repair drip lines", "Rest field or plant cover crop"]
+      },
+      "common_problems": {
+        "pests": ["Stem borer – use neem seed oil spray; Leafhopper – early morning water spray with garlic extract"],
+        "diseases": ["Gray leaf spot – avoid excessive nitrogen, ensure good air flow", "Ear rot – harvest promptly, keep field dry"],
+        "weather_issues": ["Too much rain – improve field drainage, avoid waterlogging", "Drought – increase drip frequency, use mulching"]
+      },
+      "harvest_tips": [
+        "Grains are ready when kernels are hard, glossy and moisture falls below 18%",
+        "Cut stalks with a sickle, let ears dry on a raised platform before threshing",
+        "Store dried grain in breathable bags in a cool, dry place to avoid mold"
+      ]
+    },
+    {
+      "crop_name": "Cotton",
+      "why_good": "Black soil retains moisture well, and the hot, long summer with monsoon rains matches cotton’s water needs, giving high fiber yield.",
+      "expected_harvest": "2.5‑3.5 tonnes lint per hectare",
+      "planting_time": "Late April to early May (just before monsoon)",
+      "harvest_time": "Mid‑November to early December",
+      "total_growing_days": "210",
+      "what_to_add": {
+        "before_planting": [
+          {
+            "product": "DAP (18-46-0)",
+            "amount": "90 kg per hectare",
+            "why": "Phosphorus for root development and early growth"
+          },
+          {
+            "product": "Urea (46-0-0)",
+            "amount": "120 kg per hectare",
+            "why": "Nitrogen for vegetative vigor"
+          }
+        ],
+        "during_growing": [
+          {
+            "product": "Potash (Muriate of Potash 0-0-60)",
+            "amount": "70 kg per hectare",
+            "when": "45 days after planting (square formation stage)",
+            "why": "Improves boll formation and fiber quality"
+          },
+          {
+            "product": "Calcium Nitrate (15.5-0-0 + 15.5% Ca)",
+            "amount": "80 kg per hectare",
+            "when": "At first flower stage (about 90 days after planting)",
+            "why": "Boosts calcium for cell wall strength and fiber length"
+          }
+        ]
+      },
+      "watering_guide": {
+        "method": "Drip irrigation with micro‑sprinklers for early growth, switch to furrow during monsoon",
+        "schedule": "Every 5‑6 days in dry months, rely on rain during July‑September",
+        "critical_stages": ["Flowering (boll setting)", "Boll development"],
+        "total_water_needed": "Approx. 650‑750 mm for the whole season"
+      },
+      "month_by_month_plan": {
+        "month_1": ["Deep plow field, add lime and gypsum", "Lay drip lines along planned rows"],
+        "month_2": ["Sow cotton seeds 2‑3 cm deep, 75 cm row spacing", "Apply basal DAP and Urea"],
+        "month_3": ["Keep soil moist, monitor emergence", "Remove any weeds manually"],
+        "month_4": ["First side‑dressing of Urea (30 days after sowing)", "Check drip system for leaks"],
+        "month_5": ["Apply potash at square formation stage", "Scout for bollworm, use Bacillus thuringiensis (Bt) spray if needed"],
+        "month_6": ["Apply calcium nitrate at first flower", "Continue irrigation, mulching to retain moisture"],
+        "month_7": ["Monsoon rains peak – ensure good field drainage, reduce supplemental water", "Control aphids with neem oil"],
+        "month_8": ["Monitor boll development, remove any diseased bolls", "Maintain light irrigation if rain drops"],
+        "month_9": ["Prepare harvest tools, test boll maturity (lint dry, boll opens easily)"],
+        "month_10": ["Begin staggered harvesting to avoid over‑wet lint", "Dry harvested lint under shade"],
+        "month_11": ["Store lint in breathable bags, keep away from moisture", "Clear field of stalks, incorporate residue"],
+        "month_12": ["Soil testing, add organic manure for next crop", "Maintain irrigation equipment"]
+      },
+      "common_problems": {
+        "pests": ["Pink bollworm – use pheromone traps and Bt spray", "Aphids – neem oil spray early morning"],
+        "diseases": ["Fusarium wilt – rotate with non‑cotton crops, use disease‑free seed", "Root rot – ensure good drainage"],
+        "weather_issues": ["Heavy rain during boll formation – provide raised beds or ridges", "Drought before flowering – increase drip frequency, apply mulches"]
+      },
+      "harvest_tips": [
+        "Bolls are ready when they open easily and lint is dry and fluffy",
+        "Pick bolls by hand or use a cotton picker, avoid crushing fibers",
+        "Store lint in dry, well‑ventilated bags; keep away from direct sunlight"
+      ]
+    }
+  ],
+  "general_tips": {
+    "soil_protection": [
+      "Plant cover crops like cowpea on fallow periods to hold soil",
+      "Create shallow contour bunds on any slight slope to slow runoff",
+      "Avoid over‑tilling; use minimum tillage wherever possible"
+    ],
+    "water_saving": [
+      "Use drip irrigation with pressure regulators to reduce loss",
+      "Collect rainwater in farm ponds and use for supplemental irrigation",
+      "Mulch with straw or dried leaves to lower evaporation"
+    ],
+    "cost_saving": [
+      "Use locally produced compost and farmyard manure instead of expensive chemical fertilizers",
+      "Share equipment (drip kits, sprayers) with neighboring farms",
+      "Adopt integrated pest management to cut pesticide purchases"
+    ]
+  },
+  "rotation_plan": {
+    "year_1": "Maize – builds organic matter and uses early monsoon water",
+    "year_2": "Cotton – benefits from residual nitrogen and breaks pest cycle of maize",
+    "year_3": "Soybean or a legume mix – adds nitrogen back to soil and improves soil structure"
+  }
+}

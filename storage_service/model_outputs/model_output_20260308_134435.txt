@@ -1,0 +1,194 @@
+{
+  "summary": "Black soil with good fertility and ample monsoon rain is ideal for a water‑loving crop like rice and a warm‑season crop like maize. Both give good returns and fit the climate and slope conditions.",
+  "general_land_preparation": {
+    "before_any_crop": [
+      {
+        "product": "Lime (agricultural grade)",
+        "amount": "1.5 ton per hectare",
+        "why": "Raises pH slightly for optimal nutrient uptake on slightly acidic black soil"
+      },
+      {
+        "product": "Gypsum",
+        "amount": "2 ton per hectare",
+        "why": "Improves soil structure on the 20° slope and adds calcium"
+      },
+      {
+        "product": "Well‑decomposed compost",
+        "amount": "5 ton per hectare",
+        "why": "Adds organic matter, raises carbon content and improves water retention"
+      }
+    ]
+  },
+  "crop_recommendations": [
+    {
+      "crop_name": "Rice (IR 64 or similar short‑grain variety)",
+      "why_good": "Thrives with 1000‑1200 mm annual rain, fits monsoon peak in July, black soil holds water well",
+      "expected_harvest": "5‑6 ton per hectare",
+      "planting_time": "Mid‑June to early July (Kharif season)",
+      "harvest_time": "Late October to early November",
+      "total_growing_days": "120",
+      "what_to_add": {
+        "before_planting": [
+          {
+            "product": "Urea 46‑0‑0",
+            "amount": "80 kg per hectare",
+            "why": "Provides nitrogen for early tillering"
+          },
+          {
+            "product": "DAP 18‑46‑0",
+            "amount": "100 kg per hectare",
+            "why": "Supplies phosphorus and extra nitrogen"
+          },
+          {
+            "product": "Zinc sulfate (ZnSO4·7H2O)",
+            "amount": "10 kg per hectare",
+            "why": "Prevents zinc deficiency common in flooded fields"
+          }
+        ],
+        "during_growing": [
+          {
+            "product": "Urea",
+            "amount": "50 kg per hectare",
+            "when": "30 days after transplanting (tillering stage)",
+            "why": "Boosts leaf growth"
+          },
+          {
+            "product": "Muriate of potash (KCl 60‑0‑0)",
+            "amount": "60 kg per hectare",
+            "when": "At panicle initiation (around 60 days after transplanting)",
+            "why": "Improves grain filling"
+          }
+        ]
+      },
+      "watering_guide": {
+        "method": "Flooded (field bunding) with intermittent drainage",
+        "schedule": "Maintain 5‑7 cm water depth for first 30 days, then 2‑3 cm thereafter; adjust during dry spells",
+        "critical_stages": ["Tillering", "Panicle initiation", "Grain filling"],
+        "total_water_needed": "Approx. 1200 mm for the season (mostly from monsoon rain)"
+      },
+      "month_by_month_plan": {
+        "month_1": ["Prepare field, level land, apply lime, gypsum, and compost"],
+        "month_2": ["Plow and harrow, create raised bunds for water control"],
+        "month_3": ["Apply basal DAP and Urea, form seedbeds"],
+        "month_4": ["Transplant seedlings (mid‑June)"],
+        "month_5": ["Start flooding, keep water 5‑7 cm; monitor for weeds"],
+        "month_6": ["Apply 30‑day Urea top‑dress; continue flood management"],
+        "month_7": ["Monitor for pests (stem borer) and apply simple neem seed oil spray if needed"],
+        "month_8": ["Apply potash at panicle initiation; reduce water depth to 2‑3 cm"],
+        "month_9": ["Check for disease (blast); spray copper oxychloride if symptoms appear"],
+        "month_10": ["Begin gradual drainage 2 weeks before expected harvest"],
+        "month_11": ["Harvest when grains are golden and hard; dry grains in sun for 3‑4 days"],
+        "month_12": ["Store dried grain in breathable sacks; clean fields and plan next season"]
+      },
+      "common_problems": {
+        "pests": ["Stem borer – use neem seed oil spray or light hand‑picking"],
+        "diseases": ["Rice blast – practice field sanitation and apply copper spray early"],
+        "weather_issues": ["If rain is delayed, use stored water to maintain flood; if excessive rain, ensure proper drainage to avoid lodging"]
+      },
+      "harvest_tips": [
+        "Grain is ready when 80% of panicles turn golden and kernels are hard",
+        "Cut stems with sickle, let bundles dry on raised platforms",
+        "Store in well‑ventilated bamboo or jute sacks; keep moisture below 13% to avoid mold"
+      ]
+    },
+    {
+      "crop_name": "Maize (Hybrid 614 or similar drought‑tolerant hybrid)",
+      "why_good": "Warm temperatures (28‑35 °C) and good rainfall early in season; black soil gives high nutrient retention",
+      "expected_harvest": "7‑8 ton per hectare of grain",
+      "planting_time": "Early March to mid‑April (rainy start of season)",
+      "harvest_time": "Late August to early September",
+      "total_growing_days": "110",
+      "what_to_add": {
+        "before_planting": [
+          {
+            "product": "DAP 18‑46‑0",
+            "amount": "120 kg per hectare",
+            "why": "Supplies phosphorus for root development"
+          },
+          {
+            "product": "Urea 46‑0‑0",
+            "amount": "60 kg per hectare",
+            "why": "Initial nitrogen boost"
+          },
+          {
+            "product": "Organic manure (cow dung) aged",
+            "amount": "8 ton per hectare",
+            "why": "Adds organic matter and micronutrients"
+          }
+        ],
+        "during_growing": [
+          {
+            "product": "Urea",
+            "amount": "80 kg per hectare",
+            "when": "30 days after emergence (V6 stage)",
+            "why": "Supports leaf area expansion"
+          },
+          {
+            "product": "Muriate of potash (KCl 60‑0‑0)",
+            "amount": "70 kg per hectare",
+            "when": "At tasseling stage (about 70 days after planting)",
+            "why": "Improves kernel weight"
+          },
+          {
+            "product": "Zinc sulfate",
+            "amount": "8 kg per hectare",
+            "when": "At V12 stage",
+            "why": "Prevents zinc deficiency, improves ear size"
+          }
+        ]
+      },
+      "watering_guide": {
+        "method": "Drip irrigation or furrow irrigation (preferred on slope)",
+        "schedule": "Apply 25 mm water per week during vegetative stage; increase to 35‑40 mm/week during tasseling and grain fill; reduce after silking",
+        "critical_stages": ["Silking", "Grain filling"],
+        "total_water_needed": "Approx. 550 mm for the whole season (supplement monsoon rains)"
+      },
+      "month_by_month_plan": {
+        "month_1": ["Clear field, incorporate lime if not done, level land for drainage"],
+        "month_2": ["Plow, add basal DAP, Urea and organic manure; create drip lines or furrows"],
+        "month_3": ["Sow maize seeds at 25 cm spacing, 5 cm depth"],
+        "month_4": ["Start irrigation once seedlings emerge; keep soil moist"],
+        "month_5": ["Apply first Urea top‑dress at V6 stage; monitor weeds"],
+        "month_6": ["Control weeds manually or with shallow hoeing; check for earworm pests"],
+        "month_7": ["Apply potash at tasseling; increase irrigation frequency for silking"],
+        "month_8": ["Watch for aphids – spray neem oil if needed; begin reducing water as grains mature"],
+        "month_9": ["Harvest when husks are dry and kernels rattle; dry ears in shade for a day"],
+        "month_10": ["Shell and store grain in airtight bags; clean equipment"],
+        "month_11": ["Leave field fallow for a few weeks, add cover crop seed if desired"],
+        "month_12": ["Plan next season, check soil test for residual nutrients"]
+      },
+      "common_problems": {
+        "pests": ["Earworm – hand pick or spray neem oil early"],
+        "diseases": ["Gray leaf spot – use disease‑free seed and rotate crops"],
+        "weather_issues": ["If drought before tasseling, increase drip frequency; if heavy rain, ensure good drainage on slope"]
+      },
+      "harvest_tips": [
+        "Grains are ready when moisture drops below 14% and kernels are hard",
+        "Cut stalks with sickle, let ears dry on tarps before shelling",
+        "Store grain in moisture‑proof bags; keep in cool, dry place"
+      ]
+    }
+  ],
+  "general_tips": {
+    "soil_protection": [
+      "Plant contour strips of grass or legumes on the 20° slope to reduce erosion",
+      "Use cover crops (e.g., cowpea) during off‑season",
+      "Avoid working the field when soil is wet"
+    ],
+    "water_saving": [
+      "Collect monsoon runoff in small earth ponds or bunds for dry periods",
+      "Prefer drip irrigation on slopes to direct water to roots",
+      "Mulch with straw after planting to reduce evaporation"
+    ],
+    "cost_saving": [
+      "Use locally available farmyard manure instead of expensive fertilizers for part of nutrient needs",
+      "Apply fertilizers based on soil test recommendations to avoid over‑application",
+      "Share irrigation equipment with neighboring farms to lower maintenance cost"
+    ]
+  },
+  "rotation_plan": {
+    "year_1": "Plant rice during monsoon to use abundant rain and then leave a short fallow with green manure",
+    "year_2": "Follow with maize in the dry‑warm months to break pest cycles and use residual nitrogen",
+    "year_3": "Introduce a legume (e.g., pigeon pea) after maize to fix nitrogen and improve soil structure"
+  }
+}

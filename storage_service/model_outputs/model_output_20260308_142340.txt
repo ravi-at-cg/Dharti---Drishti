@@ -1,0 +1,194 @@
+{
+  "summary": "Black, fertile soil with good moisture from monsoon supports heat‑tolerant cash crops. Cotton and soybean will give good returns and keep the soil healthy.",
+  "general_land_preparation": {
+    "before_any_crop": [
+      {
+        "product": "Agricultural Lime",
+        "amount": "1.5 tons per hectare",
+        "why": "Raises pH to optimal 6.5‑7 for most crops"
+      },
+      {
+        "product": "Gypsum",
+        "amount": "1500 kg per hectare",
+        "why": "Improves soil structure and supplies calcium"
+      },
+      {
+        "product": "Well‑rotted Compost",
+        "amount": "5 tons per hectare",
+        "why": "Adds organic matter and boosts microbial activity"
+      }
+    ]
+  },
+  "crop_recommendations": [
+    {
+      "crop_name": "Cotton",
+      "why_good": "Black regur soil holds moisture well and provides nutrients needed for high‑lint cotton; tolerant to high summer temps.",
+      "expected_harvest": "2.5‑3.0 tons lint per hectare",
+      "planting_time": "June‑July (start of monsoon)",
+      "harvest_time": "November‑December",
+      "total_growing_days": "150",
+      "what_to_add": {
+        "before_planting": [
+          {
+            "product": "DAP (18-46-0)",
+            "amount": "80 kg per hectare",
+            "why": "Provides phosphorus and initial nitrogen for root development"
+          },
+          {
+            "product": "Gypsum",
+            "amount": "1500 kg per hectare",
+            "why": "Improves soil aeration and supplies calcium"
+          },
+          {
+            "product": "Compost",
+            "amount": "5 tons per hectare",
+            "why": "Adds organic matter and slow‑release nutrients"
+          }
+        ],
+        "during_growing": [
+          {
+            "product": "Urea",
+            "amount": "50 kg per hectare",
+            "when": "30 days after planting (early vegetative stage)",
+            "why": "Boosts vegetative growth"
+          },
+          {
+            "product": "Muriate of Potash (KCl 60-0-0)",
+            "amount": "40 kg per hectare",
+            "when": "At flowering stage (around 90 DAS)",
+            "why": "Supports boll development and fiber quality"
+          },
+          {
+            "product": "Zinc Sulfate",
+            "amount": "5 kg per hectare",
+            "when": "At boll formation",
+            "why": "Prevents zinc deficiency, improves lint quality"
+          }
+        ]
+      },
+      "watering_guide": {
+        "method": "Drip irrigation with mulching",
+        "schedule": "Every 5‑7 days during dry spells; increase to every 3‑4 days during boll formation",
+        "critical_stages": ["Flowering (60‑70 DAS)", "Boll development (90‑110 DAS)"],
+        "total_water_needed": "Approximately 700 mm for the whole season"
+      },
+      "month_by_month_plan": {
+        "month_1": ["Apply lime, gypsum, and compost; level the seedbed", "Mark rows for drip lines"],
+        "month_2": ["Lay drip lines and start irrigation", "Sow cotton seeds at 30‑35 cm spacing"],
+        "month_3": ["Apply first urea dose (30 DAS)", "Monitor weed emergence and remove manually"],
+        "month_4": ["Check drip emitters, adjust flow", "Begin pest scouting for bollworm"],
+        "month_5": ["Apply potash at flowering", "Increase irrigation frequency for boll set"],
+        "month_6": ["Apply zinc sulfate if signs of deficiency", "Continue regular weeding"],
+        "month_7": ["Harvest lint when bolls open and open‑eye appears", "Collect and bale lint"],
+        "month_8": ["Remove remaining stalks, plow field", "Apply post‑harvest compost (2 tons/ha)"],
+        "month_9": ["Soil test for next crop", "Prepare seedbed for next season"],
+        "month_10": ["Maintain field drainage", "Repair any damaged drip lines"],
+        "month_11": ["Store harvested lint in dry, ventilated bags", "Plan marketing"],
+        "month_12": ["Rest field, consider cover crop like clover"]
+      },
+      "common_problems": {
+        "pests": ["Bollworm – use pheromone traps and Bacillus thuringiensis spray", "Aphids – spray neem oil if infestation >5%"],
+        "diseases": ["Verticillium wilt – rotate with non‑cotton crops, use disease‑free seed", "Cotton leaf curl virus – control whitefly with sticky traps"],
+        "weather_issues": ["Too much rain – ensure good drainage, avoid waterlogging by raising beds", "Drought – increase drip flow and apply mulches to retain moisture"]
+      },
+      "harvest_tips": [
+        "Bolls are ready when they open and the lint is fluffy",
+        "Pick early in the morning to avoid moisture on lint",
+        "Dry harvested lint in shade for 2‑3 days before baling"
+      ]
+    },
+    {
+      "crop_name": "Soybean",
+      "why_good": "Black soil provides excellent water holding capacity; soybean fixes nitrogen improving soil health and fits well after cotton.",
+      "expected_harvest": "2.8‑3.2 tons per hectare (green pods)",
+      "planting_time": "June‑July (early monsoon)",
+      "harvest_time": "October‑November",
+      "total_growing_days": "120",
+      "what_to_add": {
+        "before_planting": [
+          {
+            "product": "DAP (18-46-0)",
+            "amount": "60 kg per hectare",
+            "why": "Supplies phosphorus for root establishment"
+          },
+          {
+            "product": "Agricultural Lime",
+            "amount": "1.5 tons per hectare",
+            "why": "Adjusts pH for optimal nitrogen fixation"
+          },
+          {
+            "product": "Compost",
+            "amount": "4 tons per hectare",
+            "why": "Improves soil organic matter"
+          }
+        ],
+        "during_growing": [
+          {
+            "product": "Urea",
+            "amount": "40 kg per hectare",
+            "when": "30 days after planting (early vegetative)",
+            "why": "Supports rapid leaf growth"
+          },
+          {
+            "product": "Zinc Sulfate",
+            "amount": "5 kg per hectare",
+            "when": "At flowering stage (around 45 DAS)",
+            "why": "Prevents zinc deficiency which reduces pod set"
+          }
+        ]
+      },
+      "watering_guide": {
+        "method": "Drip or low‑pressure sprinkler",
+        "schedule": "Every 6‑7 days during vegetative stage, increase to every 4‑5 days during pod filling",
+        "critical_stages": ["Flowering (45‑55 DAS)", "Pod filling (70‑90 DAS)"],
+        "total_water_needed": "Approximately 500 mm for the whole season"
+      },
+      "month_by_month_plan": {
+        "month_1": ["Apply lime and compost, till field to fine tilth", "Mark rows for drip lines"],
+        "month_2": ["Lay drip lines, start irrigation", "Sow soybean seeds at 5‑7 cm depth, 20 cm spacing"],
+        "month_3": ["Apply first urea dose (30 DAS)", "Monitor weeds, hand‑weed as needed"],
+        "month_4": ["Check soil moisture, adjust drip flow", "Begin scouting for aphids and thrips"],
+        "month_5": ["Apply zinc sulfate at flowering", "Increase irrigation frequency for pod set"],
+        "month_6": ["Inspect for fungal spots, spray copper fungicide if needed", "Continue weed control"],
+        "month_7": ["Harvest when pods are mature and seeds are hard", "Thresh beans and dry in shade"],
+        "month_8": ["Remove crop residues, incorporate into soil or use as mulch", "Apply post‑harvest compost (2 tons/ha)"],
+        "month_9": ["Conduct soil test for next season", "Prepare seedbed for next crop"],
+        "month_10": ["Maintain field drainage", "Repair any irrigation lines"],
+        "month_11": ["Store dried beans in breathable bags", "Plan market sale"],
+        "month_12": ["Plant a cover crop (e.g., vetch) to protect soil"]
+      },
+      "common_problems": {
+        "pests": ["Soybean aphid – release lady beetles, apply neem oil if >10%", "Pod borer – use pheromone traps"],
+        "diseases": ["Soybean rust – plant resistant varieties, spray fungicide early", "Root rot – ensure good drainage, avoid waterlogging"],
+        "weather_issues": ["Excess rain – improve field drainage, avoid standing water", "Dry spell – increase drip flow and mulch"]
+      },
+      "harvest_tips": [
+        "Seeds are ready when pods turn yellow‑brown and make a sharp sound when shaken",
+        "Harvest in the cool early morning to keep beans dry",
+        "Dry beans to <13% moisture before storage to prevent mold"
+      ]
+    }
+  ],
+  "general_tips": {
+    "soil_protection": [
+      "Plant contour strips or grass strips on any slight slopes",
+      "Use mulches (straw, compost) to reduce erosion",
+      "Avoid deep tillage after heavy rains"
+    ],
+    "water_saving": [
+      "Install drip emitters with low flow rates (2‑4 L/h)",
+      "Collect rainwater in storage tanks for supplemental irrigation",
+      "Mulch around plants to cut evaporation"
+    ],
+    "cost_saving": [
+      "Use locally produced compost instead of expensive chemical fertilizers",
+      "Adopt manual weeding where labor is cheap",
+      "Share irrigation infrastructure with neighboring farms"
+    ]
+  },
+  "rotation_plan": {
+    "year_1": "Cotton – high cash return, uses soil nutrients well in black soil",
+    "year_2": "Soybean – fixes nitrogen, restores soil fertility after cotton",
+    "year_3": "Winter wheat or sorghum – breaks pest cycles and utilizes residual moisture"
+  }
+}

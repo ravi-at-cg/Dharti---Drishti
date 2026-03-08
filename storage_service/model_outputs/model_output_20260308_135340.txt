@@ -1,0 +1,170 @@
+{
+  "summary": "Black, fertile soil with good moisture and warm climate suits water‑loving crops like rice and high‑protein crops like soybean. Both give good returns and fit the monsoon pattern.",
+  "general_land_preparation": {
+    "before_any_crop": [
+      {
+        "product": "Agricultural Lime",
+        "amount": "2 tonnes per hectare",
+        "why": "Raises pH of slightly acidic black soil and improves root growth"
+      },
+      {
+        "product": "Gypsum (Calcium Sulphate)",
+        "amount": "1.5 tonnes per hectare",
+        "why": "Improves soil structure and provides calcium and sulphur"
+      }
+    ]
+  },
+  "crop_recommendations": [
+    {
+      "crop_name": "Rice (Kharif)",
+      "why_good": "Monsoon‑dominant rain gives enough water; black soil holds moisture and nutrients well for rice.",
+      "expected_harvest": "5‑6 tons per hectare",
+      "planting_time": "Early June (just before monsoon peaks)",
+      "harvest_time": "Late October to early November",
+      "total_growing_days": "130",
+      "what_to_add": {
+        "before_planting": [
+          {
+            "product": "Urea 46-0-0",
+            "amount": "120 kg per hectare",
+            "why": "Provides nitrogen for early tillering"
+          },
+          {
+            "product": "DAP 18-46-0",
+            "amount": "100 kg per hectare",
+            "why": "Supplies phosphorus and extra nitrogen for root development"
+          }
+        ],
+        "during_growing": [
+          {
+            "product": "Urea",
+            "amount": "80 kg per hectare",
+            "when": "30 days after transplanting (tillering stage)",
+            "why": "Boosts leaf growth"
+          },
+          {
+            "product": "Muriate of Potash (KCl) 0-0-60",
+            "amount": "50 kg per hectare",
+            "when": "At panicle initiation (around 70 days after planting)",
+            "why": "Improves grain filling"
+          }
+        ]
+      },
+      "watering_guide": {
+        "method": "Flood irrigation (maintain 5‑7 cm water depth)",
+        "schedule": "Maintain standing water for first 30 days, then intermittent flooding every 4‑5 days",
+        "critical_stages": ["Tillering (20‑30 days)", "Flowering (80‑90 days)"],
+        "total_water_needed": "Approx. 1200 mm for the season"
+      },
+      "month_by_month_plan": {
+        "month_1": ["Land levelling and ploughing", "Apply lime and gypsum", "Create bunds for water retention"],
+        "month_2": ["Apply basal DAP and Urea", "Level field and prepare seedbed", "Begin nursery sowing of rice seeds"],
+        "month_3": ["Transplant 25‑day old seedlings", "Start flood irrigation", "Weed manually"],
+        "month_4": ["Apply 30‑day Urea top‑dress", "Monitor water level, keep shallow flooding", "Control weeds"],
+        "month_5": ["Check for pests (stem borer) and apply neem seed oil if needed", "Maintain water"],
+        "month_6": ["Apply potash at panicle initiation", "Continue intermittent flooding", "Remove excess weeds"],
+        "month_7": ["Monitor for fungal disease (blast), spray copper fungicide if spotted", "Reduce water depth as grain fills"],
+        "month_8": ["Begin drying phase, lower water level", "Prepare harvest tools"],
+        "month_9": ["Harvest rice by cutting and threshing", "Dry grain in sun for 2‑3 days"],
+        "month_10": ["Store grain in breathable sacks", "Clear field residues", "Apply 10‑15 cm of straw mulch for next crop"],
+        "month_11": ["Soil testing and plan next crop", "Repair irrigation canals if needed"],
+        "month_12": ["Rest field, allow natural fallow or plant cover crop (e.g., mung bean)"]
+      },
+      "common_problems": {
+        "pests": ["Stem borer – use neem seed oil spray; Yellow aphids – release lady beetles"],
+        "diseases": ["Blast – spray copper fungicide; Sheath rot – ensure good drainage"],
+        "weather_issues": ["Excess rain – improve field drainage; Drought – add supplemental flood water from tank"]
+      },
+      "harvest_tips": [
+        "Crop is ready when grains turn golden and the stalk bends easily.",
+        "Cut at ground level, let cut stalks dry 2‑3 days before threshing.",
+        "Store dry grain in ventilated sacks away from direct sun to avoid moisture buildup."
+      ]
+    },
+    {
+      "crop_name": "Soybean (Kharif)",
+      "why_good": "Warm temperatures and moderate rainfall suit soybean; black soil provides high fertility for protein‑rich beans.",
+      "expected_harvest": "2.5‑3 tons per hectare",
+      "planting_time": "Mid‑July (after peak monsoon rain)",
+      "harvest_time": "Late November",
+      "total_growing_days": "120",
+      "what_to_add": {
+        "before_planting": [
+          {
+            "product": "Compost (well‑decomposed)",
+            "amount": "10 tonnes per hectare",
+            "why": "Adds organic matter and improves water holding capacity"
+          },
+          {
+            "product": "DAP 18-46-0",
+            "amount": "80 kg per hectare",
+            "why": "Supplies phosphorus for root growth"
+          }
+        ],
+        "during_growing": [
+          {
+            "product": "Urea",
+            "amount": "100 kg per hectare",
+            "when": "At V4 stage (4th leaf, about 30 days after sowing)",
+            "why": "Provides nitrogen for pod formation"
+          },
+          {
+            "product": "Muriate of Potash (KCl)",
+            "amount": "40 kg per hectare",
+            "when": "At flowering stage (around 60 days after sowing)",
+            "why": "Enhances seed size and yield"
+          }
+        ]
+      },
+      "watering_guide": {
+        "method": "Drip irrigation (0.8‑1.0 L per plant per day)",
+        "schedule": "Water every 5‑7 days during dry spells; reduce after flowering",
+        "critical_stages": ["Flowering (55‑65 days)", "Pod development (70‑90 days)"],
+        "total_water_needed": "Approx. 500‑600 mm for the season"
+      },
+      "month_by_month_plan": {
+        "month_1": ["Clear field of residues, plough to 20‑cm depth", "Apply lime if soil pH < 6.0"],
+        "month_2": ["Broadcast compost and DAP, incorporate into soil", "Level field for even sowing"],
+        "month_3": ["Sow soybean seeds at 30‑35 kg/ha, spacing 30 cm between rows", "Set up drip lines"],
+        "month_4": ["Irrigate lightly to ensure seed germination", "Weed manually around seedlings"],
+        "month_5": ["Apply first Urea top‑dress at V4 stage", "Monitor for aphids; use neem spray if needed"],
+        "month_6": ["Check soil moisture; add drip water if dry", "Control leaf spot disease with copper spray if observed"],
+        "month_7": ["Apply potash at flowering", "Increase irrigation frequency during pod filling"],
+        "month_8": ["Inspect pods, treat any pest outbreaks quickly", "Reduce irrigation as pods mature"],
+        "month_9": ["Harvest when leaves turn yellow and pods are dry", "Cut plants and let dry 2 days"],
+        "month_10": ["Thresh beans, remove stones and chaff", "Dry beans to 13% moisture in shade"],
+        "month_11": ["Store beans in breathable bags, keep in cool dry place", "Plow field and add remaining crop residues as mulch"],
+        "month_12": ["Conduct soil test for next season", "Plan rotation (e.g., wheat or millet)"]
+      },
+      "common_problems": {
+        "pests": ["Aphids – spray neem oil; Bean fly – early sowing and trap crops"],
+        "diseases": ["Soybean rust – apply copper fungicide early; Leaf spot – ensure good airflow"],
+        "weather_issues": ["Water shortage – increase drip frequency; Excess rain – improve field drainage, avoid waterlogging"]
+      },
+      "harvest_tips": [
+        "Beans are ready when pods are dry and turn brown.",
+        "Cut at ground level, let stand for 1‑2 days before threshing.",
+        "Store in airtight but breathable containers to prevent mold."
+      ]
+    }
+  ],
+  "general_tips": {
+    "soil_protection": [
+      "Maintain 10‑15 cm permanent grass or mulch on slopes to stop erosion",
+      "Use contour bunds on any slight incline to slow runoff"
+    ],
+    "water_saving": [
+      "Collect monsoon runoff in a small earth tank for supplemental drip irrigation",
+      "Mulch all rows with straw to reduce evaporation"
+    ],
+    "cost_saving": [
+      "Use locally produced compost from farm residues instead of expensive organic fertilizers",
+      "Share drip‑line equipment with neighboring farms to split cost"
+    ]
+  },
+  "rotation_plan": {
+    "year_1": "Rice – builds soil organic matter and uses abundant monsoon water",
+    "year_2": "Soybean – adds nitrogen, breaks pest cycles, and uses less water",
+    "year_3": "Maize or millet – utilizes residual soil fertility and provides a short‑duration cash crop"
+  }
+}

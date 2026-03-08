@@ -1,0 +1,209 @@
+{
+  "summary": "Black cotton soil with good moisture retention and a warm monsoon climate is ideal for heat‑tolerant, deep‑rooted crops. Cotton and soybean will thrive with proper soil amendments and timely irrigation.",
+  "general_land_preparation": {
+    "before_any_crop": [
+      {
+        "product": "Agricultural Lime",
+        "amount": "500 kg per hectare",
+        "why": "Raises pH if soil is too alkaline and improves nutrient availability"
+      },
+      {
+        "product": "Gypsum",
+        "amount": "1000 kg per hectare",
+        "why": "Improves soil structure and reduces crusting on heavy black soil"
+      },
+      {
+        "product": "Well‑rotted Compost",
+        "amount": "5 tons per hectare",
+        "why": "Adds organic matter, boosts carbon content and water holding capacity"
+      }
+    ]
+  },
+  "crop_recommendations": [
+    {
+      "crop_name": "Cotton (Gossypium hirsutum)",
+      "why_good": "Thrives in hot temperatures, deep black soil holds moisture well, and the long monsoon provides needed water.",
+      "expected_harvest": "2.5–3.0 tons lint per hectare",
+      "planting_time": "Mid‑April to early May",
+      "harvest_time": "Late October to early November",
+      "total_growing_days": "180",
+      "what_to_add": {
+        "before_planting": [
+          {
+            "product": "Urea (46‑0‑0)",
+            "amount": "100 kg per hectare",
+            "why": "Provides nitrogen for early vegetative growth"
+          },
+          {
+            "product": "DAP (18‑46‑0)",
+            "amount": "60 kg per hectare",
+            "why": "Supplies phosphorus and additional nitrogen for root development"
+          },
+          {
+            "product": "Muriate of Potash (0‑0‑60)",
+            "amount": "40 kg per hectare",
+            "why": "Ensures enough potassium for boll formation"
+          }
+        ],
+        "during_growing": [
+          {
+            "product": "Urea",
+            "amount": "50 kg per hectare",
+            "when": "30 days after emergence (around early June)",
+            "why": "Boosts leaf area for photosynthesis"
+          },
+          {
+            "product": "Zinc Sulphate (ZnSO4)",
+            "amount": "10 kg per hectare",
+            "when": "At first flower stage (mid‑July)",
+            "why": "Prevents zinc deficiency that can reduce boll set"
+          }
+        ]
+      },
+      "watering_guide": {
+        "method": "Drip irrigation with low flow rates",
+        "schedule": "Every 4–5 days during dry spell, weekly during monsoon",
+        "critical_stages": [
+          "Square formation (mid‑June)",
+          "Boll development (mid‑August to September)"
+        ],
+        "total_water_needed": "Approx. 700 mm per season"
+      },
+      "month_by_month_plan": {
+        "month_1": ["Prepare land, plow to 20‑25 cm depth, incorporate compost and gypsum."],
+        "month_2": ["Apply lime, level field, create drip lines."],
+        "month_3": ["Perform final land levelling, test soil pH, adjust if needed."],
+        "month_4": ["Sow cotton seeds at 8‑10 cm depth, 30‑40 cm spacing."],
+        "month_5": ["Irrigate via drip as per schedule, monitor emergence."],
+        "month_6": ["Apply first side‑dressing of Urea (50 kg/ha)."],
+        "month_7": ["Apply zinc sulfate at first flower stage."],
+        "month_8": ["Continue drip irrigation, check for pest build‑up."],
+        "month_9": ["Remove any weeds, ensure adequate moisture for boll filling."],
+        "month_10": ["Begin harvesting bolls when they open, continue irrigation if dry."],
+        "month_11": ["Complete harvest, clean field, apply post‑harvest gypsum if soil surface crusted."],
+        "month_12": ["Store lint, plan next season's crop rotation."]
+      },
+      "common_problems": {
+        "pests": [
+          "Bollworm – use Bacillus thuringiensis (Bt) spray or neem oil.",
+          "Aphids – spray with insecticidal soap early morning."
+        ],
+        "diseases": [
+          "Verticillium wilt – practice crop rotation, avoid planting cotton after cotton.",
+          "Root rot – ensure good drainage, avoid waterlogging."
+        ],
+        "weather_issues": [
+          "Too little rain – increase drip flow, capture runoff in storage tanks.",
+          "Excess rain – ensure raised beds and proper drainage."
+        ]
+      },
+      "harvest_tips": [
+        "Bolls are ready when they open and the fibers are fluffy.",
+        "Pick bolls by hand or use a small mechanical picker to avoid fiber damage.",
+        "Dry harvested lint in shade for 2‑3 days before baling to prevent mold."
+      ]
+    },
+    {
+      "crop_name": "Soybean (Glycine max)",
+      "why_good": "Fits the monsoon peak in July, tolerates high temperatures, and fixes nitrogen improving soil health.",
+      "expected_harvest": "2.5–3.0 tons grain per hectare",
+      "planting_time": "Early June to early July (onset of monsoon)",
+      "harvest_time": "Late September to early October",
+      "total_growing_days": "110",
+      "what_to_add": {
+        "before_planting": [
+          {
+            "product": "Urea (46‑0‑0)",
+            "amount": "80 kg per hectare",
+            "why": "Provides starter nitrogen for rapid early growth"
+          },
+          {
+            "product": "DAP (18‑46‑0)",
+            "amount": "50 kg per hectare",
+            "why": "Supplies phosphorus for root and nodule development"
+          },
+          {
+            "product": "Compost (well‑rotted)",
+            "amount": "4 tons per hectare",
+            "why": "Adds organic matter and improves moisture retention"
+          }
+        ],
+        "during_growing": [
+          {
+            "product": "Urea",
+            "amount": "30 kg per hectare",
+            "when": "At flowering stage (mid‑August)",
+            "why": "Supports pod filling and seed weight"
+          },
+          {
+            "product": "Molybdenum sulfate",
+            "amount": "5 kg per hectare",
+            "when": "At early pod formation",
+            "why": "Enhances nitrogen fixation in root nodules"
+          }
+        ]
+      },
+      "watering_guide": {
+        "method": "Sprinkler system or furrow irrigation (if water available)",
+        "schedule": "Every 5‑6 days during early growth, weekly after flowering; adjust to rainfall.",
+        "critical_stages": [
+          "Flowering (mid‑August)",
+          "Pod filling (late August to September)"
+        ],
+        "total_water_needed": "Approx. 500 mm for the whole season"
+      },
+      "month_by_month_plan": {
+        "month_1": ["Clear debris, plow to 15‑20 cm, incorporate compost."],
+        "month_2": ["Apply lime if needed, level field, set up sprinklers."],
+        "month_3": ["Conduct seedbed preparation, test soil for phosphorus."],
+        "month_4": ["Reserve seed, treat with fungicide if required."],
+        "month_5": ["Monitor weather, prepare for monsoon sowing."],
+        "month_6": ["Sow soybean seeds 3‑4 cm deep, 30 cm row spacing."],
+        "month_7": ["Irrigate if early rains are insufficient, keep soil moist."],
+        "month_8": ["Apply first side‑dressing of Urea (30 kg/ha) at flowering."],
+        "month_9": ["Monitor pods, ensure adequate water during pod filling."],
+        "month_10": ["Harvest when leaves turn yellow and pods are dry, thresh grains."],
+        "month_11": ["Dry grain to 13% moisture, store in ventilated bins."],
+        "month_12": ["Plow residues back into soil, plan next crop (e.g., wheat)."]
+      },
+      "common_problems": {
+        "pests": [
+          "Soybean aphid – release lady beetles or spray neem oil.",
+          "Pod borer – use pheromone traps and timely insecticide."
+        ],
+        "diseases": [
+          "Root rot (Phytophthora) – ensure good drainage, avoid waterlogging.",
+          "Soybean rust – apply copper‑based fungicide at early sign."
+        ],
+        "weather_issues": [
+          "Late monsoon dry spell – supplement with sprinkler water.",
+          "Heavy rains – create shallow drainage channels to avoid standing water."
+        ]
+      },
+      "harvest_tips": [
+        "Grain is ready when pods are brown and easily shatter.",
+        "Use a small combine or hand‑thresh; avoid harvesting wet pods to prevent mold.",
+        "Store dried grain in breathable bags, keep away from moisture."
+      ]
+    }
+  ],
+  "general_tips": {
+    "soil_protection": [
+      "Plant cover crops (e.g., clover) in off‑season to prevent erosion.",
+      "Maintain a 10‑15 cm mulch layer after sowing to protect soil surface."
+    ],
+    "water_saving": [
+      "Collect rainwater in earthen or plastic tanks during monsoon for supplemental irrigation.",
+      "Use drip lines with low‑flow emitters to target root zones."
+    ],
+    "cost_saving": [
+      "Use locally available farmyard manure to replace part of chemical fertilizer.",
+      "Practice seed saving from healthy plants for next season."
+    ]
+  },
+  "rotation_plan": {
+    "year_1": "Cotton – improves soil structure, deep roots break compacted layers.",
+    "year_2": "Soybean – adds nitrogen, breaks pest cycle of cotton.",
+    "year_3": "Millet or sorghum – light feeder, restores organic matter and prepares field for next cotton cycle."
+  }
+}
