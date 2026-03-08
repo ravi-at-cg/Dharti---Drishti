@@ -142,11 +142,11 @@ graph LR
 
     Index -->|User Input| Script
     Script -->|POST /api/analyze| App
-    App -->|process_image()| AILayer
-    AILayer -->|get_soil_category()| ST
-    AILayer -->|get_carbon_content()| CC
-    AILayer -->|build_land_profile()| EP
-    AILayer -->|get_actions()| AE
+    App -->|process_image| AILayer
+    AILayer -->|get_soil_category| ST
+    AILayer -->|get_carbon_content| CC
+    AILayer -->|build_land_profile| EP
+    AILayer -->|get_actions| AE
     AE -->|JSON Response| App
     App -->|HTTP Response| Script
     Script -->|Navigate| Results
@@ -202,49 +202,6 @@ sequenceDiagram
     User->>Frontend: Click "View Results"
     Frontend->>Frontend: Navigate to results.html
     Frontend->>User: Render detailed recommendations
-```
-
-## Technology Stack
-
-```mermaid
-mindmap
-  root((Dharti Drishti))
-    Frontend
-      HTML5
-      CSS3
-      Vanilla JavaScript
-      Browser Geolocation API
-    Backend
-      Python 3.x
-      Flask
-      Flask-CORS
-      Werkzeug
-    AI/ML Services
-      Roboflow API
-        Soil Classification
-      Google Gemini 3 Flash
-        Carbon Content Analysis
-      Groq API
-        GPT-OSS-120B LLM
-        Action Generation
-    External APIs
-      NASA POWER API
-        Climate Data
-        Temperature
-        Rainfall
-        Humidity
-      Open Elevation API
-        Terrain Analysis
-      Overpass API
-        OpenStreetMap
-        Waterbody Detection
-    Storage
-      Local File System
-        Soil Images
-        Model Outputs
-    Environment
-      Python dotenv
-      API Keys Management
 ```
 
 ## Key Features & Capabilities
